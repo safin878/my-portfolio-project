@@ -1,4 +1,4 @@
-/* main font */
+/* main font styles */
  body{
     font-family: 'Lato',sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -10,8 +10,13 @@
     color: white;
     font-size: 20px;
     font-style: normal;
-    padding: 15px 35px;
-    
+    padding: 15px 35px;   
+}
+.section title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
 /* nav styles */
 nav{
@@ -51,13 +56,45 @@ nav a{
 /* header style  */
 .header{
     background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+.banner-content{
+    max-width: 500px;
+}
+
 .banner .profile-pic {
     width: 500px;
 }
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-top: 0;
+}
+
+/* main section style */
+.about{
+    padding: 130px;
+}
+
+/* about section styles */
