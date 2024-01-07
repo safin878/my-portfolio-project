@@ -80,6 +80,7 @@ nav a {
 
 .banner .profile-pic {
   width: 500px;
+  vertical-align: middle;
 }
 
 .banner-greeting {
@@ -137,4 +138,24 @@ main section {
 }
 .skill-description {
   color: #757575;
+}
+/* resume section styles */
+.resume-colum-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-item-title {
+  color: #474747;
+}
+.resume-item-institute,
+.resume-item-description {
+  color: #757575;
+}
+.download-cv {
+  text-align: center;
 }
