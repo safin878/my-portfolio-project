@@ -63,7 +63,7 @@ nav a {
 /* header style  */
 .header {
   background-color: #fff8f3;
-  background-image: url("/images/header_bg.png");
+  background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -187,4 +187,32 @@ textarea {
   background: #fff;
   border: none;
   width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .skills-container,
+  .resume-container,
+  footer {
+    flex-direction: column;
+  }
+  .resume-container {
+    padding: 20px;
+  }
+  #what-i-do-descripton {
+    padding: 20px;
+  }
+  footer {
+    padding: 20px;
+  }
+  .footer-colum {
+    width: 100%;
+  }
+  .contact input[type="text"],
+  .contact input[type="email"],
+  textarea {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
 }
